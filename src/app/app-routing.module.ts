@@ -14,6 +14,10 @@ const routes: Routes = [
     path: 'bookmarks',
     loadChildren: () => import('./components/bookmarks/bookmarks.module').then(m => m.BookmarksModule)
   },
+  {
+    path: 'notifications',
+    loadChildren: () => import('./components/notifications/notifications.module').then(m => m.NotificationsModule)
+  },
 ];
 
 @NgModule({
