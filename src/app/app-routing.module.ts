@@ -18,6 +18,10 @@ const routes: Routes = [
     path: 'notifications',
     loadChildren: () => import('./components/notifications/notifications.module').then(m => m.NotificationsModule)
   },
+  {
+    path: 'followings',
+    loadChildren: () => import('./components/followings/followings.module').then(m => m.FollowingsModule)
+  },
 ];
 
 @NgModule({
