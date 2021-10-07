@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'followings',
     loadChildren: () => import('./components/followings/followings.module').then(m => m.FollowingsModule)
   },
+  {
+    path: 'settings',
+    loadChildren: () => import('./components/settings/settings.module').then(m => m.SettingsModule)
+  },
 ];
 
 @NgModule({
