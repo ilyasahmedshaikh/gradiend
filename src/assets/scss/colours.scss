@@ -6,12 +6,8 @@ $red: #E94A47;
 $purple: #5F58B7;
 
 
-$background: linear-gradient(180deg, rgba(235, 251, 250, 0.77) 0%, rgba(255, 255, 255, 0) 100%);
+$purpleGradient: linear-gradient(180deg, #C79AEA 0%, #918FDF 100%);
 
-$lightPinkGradient: linear-gradient(180deg, #FFE8E6 -98.42%, #FFFFFF 100%);
+$pinkGradient: linear-gradient(77deg,#f5286e,#fc6d43);
 
-$lightBlurGradient: radial-gradient(86% 83.48% at -27.81% -29.39%, #E1DFFF 0%, #E0DDFF 0.01%, #FAFAFF 100%);
-
-$default: linear-gradient(77deg,#f5286e,#fc6d43);
-
-$defaultDark: linear-gradient(60deg, #29323c 0%, #485563 100%);
+$blackGradient: linear-gradient(60deg, #29323c 0%, #485563 100%);
