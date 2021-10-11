@@ -4,7 +4,7 @@
   background: $purpleGradient;
   width: 100%;
   height: 100vh;
-  padding: 0.938rem 0.625rem;
+  padding: 0.938rem 0.563rem;
   input{
     border-radius: 3.125rem;
     width: 100%;
@@ -23,20 +23,22 @@
   .cards{
     // margin-top: 1.25rem;
     .card-inner{
-      margin-top: 15px;
-      width: 140.15px;
-      height: 67px;
-      padding: 25px 0;
-      border-radius: 7px;
+      margin-top: 0.938rem;
+      width: 5.625rem;
+      height: auto;
+      padding: 1.563rem 0;
+      border-radius: 0.438rem;
       background-size: cover;
       background-position: center;
       background-blend-mode: soft-light;
       background-repeat: no-repeat;
-      background-color: #7a7a7a;
+      background-color: #242424;
       p{
-        font-size: 12px;
+        font-size: 0.75rem;
+        padding: 0 0.313rem;
         text-align: center;
-        color: white;
+        color: $white;
+        cursor: pointer;
       }
     }
   }

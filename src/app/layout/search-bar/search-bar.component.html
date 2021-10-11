@@ -3,36 +3,19 @@
     <div class="row">
 
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search for..." aria-label="Search"> <i class="fas fa-search"></i>
+        <input class="form-control me-2" type="search" placeholder="Search for..." aria-label="Search">
+        <a (click)="onSearchClick()"><i class="fas fa-search"></i></a>
       </form>
 
-      <div class="cards">
-        <div class="row">
+      <div class="col-12">
+        <div class="cards">
+          <div class="row justify-content-between">
 
-          <div class="col-6">
-            <div class="card-inner" style="background-image: url(../../../assets/img/img1.jpg);">
-              <p>Depression</p>
+            <div class="card-inner" style="background-image: url({{item.img}});" *ngFor="let item of data">
+              <p>{{item.name}}</p>
             </div>
-          </div>
 
-          <div class="col-6">
-            <div class="card-inner" style="background-image: url(../../../assets/img/img1.jpg);">
-              <p>Depression</p>
-            </div>
           </div>
-
-          <div class="col-6">
-            <div class="card-inner" style="background-image: url(../../../assets/img/img1.jpg);">
-              <p>Depression</p>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card-inner" style="background-image: url(../../../assets/img/img1.jpg);">
-              <p>Depression</p>
-            </div>
-          </div>
-
         </div>
       </div>
 
